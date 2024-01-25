@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Tbutton(props) {
-    const[label]=props
+    const{label}=props
     return (
         <div>
             <button
